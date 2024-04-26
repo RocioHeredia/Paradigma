@@ -1,0 +1,9 @@
+cuboDeCadaElemento :: [Int] -> [Int]
+cuboDeCadaElemento lista = map (\x -> x^3) lista
+
+main :: IO ()
+main = do
+    let nums = [1, 2, 3, 4, 5]
+    putStrLn $ "La lista original es: " ++ show nums
+    putStrLn $ "La lista con el cubo de cada elemento es: " ++ show (cuboDeCadaElemento nums)
+
