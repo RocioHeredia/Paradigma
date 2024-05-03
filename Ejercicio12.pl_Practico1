@@ -10,8 +10,8 @@ atiende(m2,p2).
 %menu de opciones
 menu:-
     write("Menu: "),nl,
-    write("Opción 1:Dado un médico, listar los pacientes que atiende."), nl,
-    write("Opción 2:Dado un paciente, listar los medicos que lo atienden."), nl,
+    write("OpciÃ³n 1:Dado un mÃ©dico, listar los pacientes que atiende."), nl,
+    write("OpciÃ³n 2:Dado un paciente, listar los medicos que lo atienden."), nl,
     write("Opcion 3: Terminar"),nl,
     read(Opcion),
     opcion(Opcion).
